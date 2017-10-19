@@ -16,7 +16,7 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 * The Pageviews API (documentation, endpoint) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through September 2017. [Documentation for pageviews](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
 ## Values of all fields in your final data file
 Column name | Value | Description
---- | --- | --- | --- 
+--- | --- | ---
 Year | YYYY | Wikipedia traffic from 2008-2016
 ## Known issues or special considerations with the data 
 * Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
