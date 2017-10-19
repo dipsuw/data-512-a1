@@ -14,7 +14,16 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 ## Relevant API documentation
 * The legacy Pagecounts API (documentation, endpoint) provides access to desktop and mobile traffic data from January 2008 through July 2016. [Documentation for pagecount](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts)
 * The Pageviews API (documentation, endpoint) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through September 2017. [Documentation for pageviews](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
-## Values of all fields in your final data file
+## Source data
+Json files from api calls:
+* pagecounts_desktop-site_200801-201607
+* pagecounts_mobile-site_200801-201607
+* pageviews_all-sites_201507-201709
+* pageviews_mobile-app_201507-201709
+* pageviews_mobile-web_201507-201709
+## Final data
+* en-wikipedia_traffic_200801-201709
+#### Values of all fields in Final data file
 Column name | Value | Description
 --- | --- | ---
 year | YYYY | Year of Wikipedia traffic from 2008-2017
@@ -29,3 +38,6 @@ pageview_mobile_views | num_views | Number of pageviews for mobile
 
 ## Known issues or special considerations with the data 
 * Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
+
+## Visualization of data
+
