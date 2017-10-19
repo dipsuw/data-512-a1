@@ -40,4 +40,4 @@ pageview_mobile_views | num_views | Number of pageviews for mobile
 * Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
 
 ## Visualization of data
-
+![alt text](https://github.com/dipsuw/data-512-a1/blob/master/PlotPageviewsEN_overlap.png "Final Visualization")
