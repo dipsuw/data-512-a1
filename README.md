@@ -1,7 +1,8 @@
 # data-512-a1
 Repository for Data curation assignment in D516
 ## Goal of the project:
-Goal of the project is to create a reproducible workflow for constructing, analyzing, and publishing a dataset of monthly traffic on English Wikipedia from July 1 2008 through September 30 2017. The three central stages of reproducible workflow are: ‘data acquisition’, * * data processing
+Goal of the project is to create a reproducible workflow for constructing, analyzing, and publishing a dataset of monthly traffic on English Wikipedia from July 1 2008 through September 30 2017. The three central stages of reproducible workflow are: 
+* data processing
 * data analysis
 * data analysis
 Automating these three stages would greatly enhance reproducibility of a project.
