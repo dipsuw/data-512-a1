@@ -6,7 +6,19 @@ Goal of the project is to create a reproducible workflow for constructing, analy
 * data processing
 * data analysis
 
-In this assignment, automated all these 3 stages to create a completely reproducible project.
+In this assignment, automated all these 3 stages to create a completely reproducible project. Following are the steps taken:
+#### Data Acquisition
+* Set API endpoints for the Pagecounts API and the Pageviews API
+* Set Parameters to make the 'Pagecounts' and 'Pageviews' API calls
+* Make Pagecount and Pageview API calls to get mobile, desktop and both Wikipedia traffic data. The output is json file which is saved on disk.
+#### Data Processing
+* Load data from json response into the respective list for time, mobile, desktop and all site views/counts.
+* Write the lists in a single dataframe for pagecount and pageviews
+* Merge the pagecount and pageviews dataframe into a single dataframe
+* Write the dataframe in a csv file and save it to disk
+#### Data Analysis
+* Create a plot to visualize Wikipedia traffic data Visualize Wikipedia traffic with 3 metrics: mobile traffic(for counts and views), desktop traffic(for counts and views) and all traffic (mobile + desktop)
+* Save the visualization as an image file
 ## Data Curation
 Data curation is the management of data throughout its lifecycle, from creation and initial storage to the time when it is archived or becomes obsolete and is deleted. 
 ## License of the source data
