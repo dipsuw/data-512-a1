@@ -5,7 +5,6 @@ Goal of the project is to create a reproducible workflow for constructing, analy
 * data processing
 * data analysis
 * data analysis
-Automating these three stages would greatly enhance reproducibility of a project.
 ### Data Curation
 Data curation is the management of data throughout its lifecycle, from creation and initial storage to the time when it is archived or becomes obsolete and is deleted. 
 ## License of the source data
