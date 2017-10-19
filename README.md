@@ -18,13 +18,9 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 Column name | Value | Description
 --- | --- | ---
 Year | YYYY | Year of Wikipedia traffic from 2008-2017
---- | --- | ---
 Month | MM | Month of Wikipedia traffic from Jan 2008- Sept 2017
---- | --- | ---
 Timestamp | YYYYMMDD | Timestamp(Datetime format)to create the time series chart
---- | --- | ---
 pagecount_all_views | num_views | Number of pagecounts for mobile and desktop
---- | --- | ---
 pagecount_desktop_views | num_views | Number of pagecounts for desktop
 ## Known issues or special considerations with the data 
 * Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
