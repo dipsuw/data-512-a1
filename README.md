@@ -5,7 +5,7 @@ Goal of the project is to create a reproducible workflow for constructing, analy
 * data processing
 * data analysis
 * data analysis
-### Data Curation
+## Data Curation
 Data curation is the management of data throughout its lifecycle, from creation and initial storage to the time when it is archived or becomes obsolete and is deleted. 
 ## License of the source data
 * MIT License(https://opensource.org/licenses/MIT)
@@ -17,10 +17,15 @@ https://wikimediafoundation.org/wiki/Terms_of_Use/en
 ## Values of all fields in your final data file
 Column name | Value | Description
 --- | --- | ---
-Year | YYYY | Year of Wikipedia traffic from 2008-2017
-Month | MM | Month of Wikipedia traffic from Jan 2008- Sept 2017
-Timestamp | YYYYMMDD | Timestamp(Datetime format)to create the time series chart
+year | YYYY | Year of Wikipedia traffic from 2008-2017
+month | MM | Month of Wikipedia traffic from Jan 2008- Sept 2017
+timestamp | MMDDYYYY | Timestamp(Datetime format)to create the time series chart
 pagecount_all_views | num_views | Number of pagecounts for mobile and desktop
 pagecount_desktop_views | num_views | Number of pagecounts for desktop
+pagecount_mobile_views | num_views | Number of pagecounts for mobile
+pageview_all_views | num_views | Number of pageviews for mobile and desktop
+pageview_desktop_views | num_views | Number of pageviews for desktop
+pageview_mobile_views | num_views | Number of pageviews for mobile
+
 ## Known issues or special considerations with the data 
 * Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
