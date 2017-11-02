@@ -1,5 +1,5 @@
 # data-512-a1
-Repository for Data curation assignment in D516
+Repository for Data curation assignment in D512
 ## Goal of the project:
 Goal of the project is to create a reproducible workflow for constructing, analyzing, and publishing a dataset of monthly traffic on English Wikipedia from July 1 2008 through September 30 2017. The three central stages of reproducible workflow are: 
 * data acquisition
